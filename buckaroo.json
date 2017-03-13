@@ -1,0 +1,6 @@
+{
+  "name": "mathfu",
+  "dependencies": {
+    "vectorial": "0.0.1"
+  }
+}

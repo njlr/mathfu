@@ -1,0 +1,27 @@
+cxx_binary(
+  name = 'matrix-benchmark',
+  header_namespace = '',
+  headers = subdir_glob([
+    ('', '*.h'),
+  ]),
+  srcs = glob([
+    'matrix_benchmark/**/*.cpp',
+  ]),
+  deps = [
+    '//:mathfu',
+  ],
+)
+
+cxx_binary(
+  name = 'vector-benchmark',
+  header_namespace = '',
+  headers = subdir_glob([
+    ('', '*.h'),
+  ]),
+  srcs = glob([
+    'vector_benchmark/**/*.cpp',
+  ]),
+  deps = [
+    '//:mathfu',
+  ],
+)

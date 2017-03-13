@@ -35,3 +35,8 @@ local.properties
 proguard-project.txt
 project.properties
 .DS_Store
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS
